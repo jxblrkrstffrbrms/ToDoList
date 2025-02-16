@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>To-Do List</title>
+
+        <style>
+            h1{
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            h2{
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 12px;
+            }
+
+            ul li{
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                list-style-type: none;
+            }
+
+            input{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                width: 500px;
+                height: 80px;
+                border-radius: 20px;
+            }
+
+            button{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                width: 180px;
+                height: 30px;
+                border-radius: 10px;
+                background-color: darkblue;
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>To-Do List</h1>
+        <input type="text" id="userInput" placeholder="Enter your task"></input><br>
+        <button id="newBtn">Add Task</button>
+        <br>
+        <h2>What to Do:</h2>
+        <ul id="listOfTasks">
+            <li id="taskList"></li>
+        </ul>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
